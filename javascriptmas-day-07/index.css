@@ -1,0 +1,38 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+h1 {
+    text-align: center;
+    color: #86352e;
+}
+
+.wishlist {
+    background-image: url("https://img.freepik.com/vetores-gratis/fundo-de-celebracao-de-temporada-de-natal-plana_23-2149842695.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 1rem;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.wishlist li {
+    list-style-type: none;
+    padding: 1rem;
+    background-color: #d6675d;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.wishlist li:hover {
+    background-color: #e48d85;
+}
