@@ -1,0 +1,60 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+:root {
+    --bg-word: #5134ff;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.word-carousel {
+    color: #fff;
+    background-color: var(--bg-word);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.word-carousel::before {
+    content: "programming";
+    animation: rotateWords 8s linear infinite;
+    display: inline-block;
+}
+
+@keyframes rotateWords {
+    0% {
+        content: "coding";
+    }
+    25% {
+        content: "books";
+    }
+    50% {
+        content: "games";
+    }
+    75% {
+        content: "learning";
+    }
+    100% {
+        content: "programming";
+    }
+}
+
