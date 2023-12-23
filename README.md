@@ -1,7 +1,7 @@
 # JavaScriptmas 2023
 
 Projetos feitos durante o JavaScriptmas 2023 da plataforma Scrimba.
-Resources
+
 
 ## About Scrimba
 
