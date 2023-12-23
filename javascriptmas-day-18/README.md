@@ -1,4 +1,4 @@
-# cob2d4c40972b9a7699a2a8f7
+# JavaScriptmas day 18
 
 Quick start:
 
