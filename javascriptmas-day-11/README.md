@@ -1,4 +1,4 @@
-# javascriptmas-day-11
+# JavaScriptmas day 11
 
 Quick start:
 
