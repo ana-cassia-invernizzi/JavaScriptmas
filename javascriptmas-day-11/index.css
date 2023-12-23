@@ -1,0 +1,41 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root { 
+    --white: #fff;
+    --red: #FF0002;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.flag {
+    width: 200px;
+    height: 200px;
+    background-color: var(--red);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cross {
+    background-color: var(--white);
+}
+
+.cross1 {
+    width: 125px;
+    height: 37.5px;
+    position: absolute;
+}
+
+.cross2 {
+    width: 37.5px;
+    height: 125px;
+}
