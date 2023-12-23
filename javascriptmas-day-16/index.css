@@ -1,0 +1,73 @@
+:root {
+  --wine-red: #C7375F;
+  --bright-red: #D42D2F;
+  --dark-green: #344D2F;
+  --light-green: #77A047;
+  --gold: #FAC57D;
+  --snow: #F0F4F7;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: var(--dark-green);
+    background-color: var(--snow);
+}
+
+h1 { 
+    color: var(--dark-green);
+}
+
+
+.container,
+.list {
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+}
+
+.list {
+    margin: 0 1em 1em;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    color: var(--snow);
+    font-size: 30px;
+    list-style-type: none;
+}
+
+.nice-list {
+    background: var(--dark-green);    
+}
+
+.naughty-list {
+    background: var(--wine-red);
+}
+
+button {
+    padding: 1em 2em;
+    border: none;
+    font-size: 1.2rem;
+    background-color: var(--gold);    
+    color: var(--dark-green);
+    font-weight: 700;
+    border-radius: 999px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.03)
+}
