@@ -1,5 +1,4 @@
-# cof6b4dadbd07a282044a706a
-
+# JavaScriptmas day 07
 Quick start:
 
 ```
