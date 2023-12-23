@@ -1,5 +1,4 @@
-# cod5f45fc989eddaa4b6ab5df
-
+# JavaScriptmas day 01
 Quick start:
 
 ```
